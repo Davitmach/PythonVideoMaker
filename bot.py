@@ -172,6 +172,7 @@ def main():
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_text))
     app.run_polling()
 
+
 if __name__ == "__main__":
     main()
 
